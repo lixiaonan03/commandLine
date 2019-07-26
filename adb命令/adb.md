@@ -17,6 +17,25 @@ adb tcpip 5555
 ``` Java
 adb devices
 ```
+### 通过adb命令查看进程或调试程序的
+* 查看手机进程和进程级别
+
+ 1. 以root用户进入系统(如果手机没有root不能用root用户进入)
+``` Java
+su root
+```
+不能用root直接 adb shell 进入
+
+2. 查看进程列表
+``` Java
+ dumpsys meminfo
+```
+3. 查看进程级别
+``` Java
+ cat proc/进程号/oom_adj
+```
+
+
 ### 通过adb命令查看文件或者安装应用
 * adb install , 安装apk到手机上
 ``` Java
