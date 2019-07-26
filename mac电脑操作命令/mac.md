@@ -1,7 +1,7 @@
 # mac 电脑上使用的的一些相关命令
 
 
-### 关于文件系统的
+### 关于文件系统的
 * 重启Finder的
 ``` Java
 killall Finder
@@ -16,7 +16,7 @@ cd /usr/local/bin
 ``` Java
 ./redis-server
 ```
-* 关闭redis
+* 关闭redis
 ``` Java
 ./redis-cli shutdown
 ```
