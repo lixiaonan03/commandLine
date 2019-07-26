@@ -13,20 +13,20 @@ adb disconnect 192.168.12.100
 ``` Java
 adb tcpip 5555
 ```
-* 列出所有已连接的设备
+* 列出所有已连接的设备
 ``` Java
 adb devices
 ```
-### 通过adb命令查看进程或调试程序的
+### 通过adb命令查看进程或调试程序的
 * 查看手机进程和进程级别
 
- 1. 以root用户进入系统(如果手机没有root不能用root用户进入)
+1. 以root用户进入系统(如果手机没有root不能用root用户进入)
 ``` Java
 su root
 ```
-不能用root直接 adb shell 进入
+不能用root直接 adb shell 进入
 
-2. 查看进程列表
+2. 查看进程列表
 ``` Java
  dumpsys meminfo
 ```
@@ -37,9 +37,9 @@ su root
 
 
 ### 通过adb命令查看文件或者安装应用
-* adb install , 安装apk到手机上
+* adb install , 安装apk到手机上
 ``` Java
-adb install 路劲
+adb install 路劲
 ```
 * adb uninstall -k 包名 卸载应用加-k是保留 缓存目录
 ``` Java
