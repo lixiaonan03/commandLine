@@ -4,7 +4,7 @@
 - [adb 命令](/adb命令/adb.md)
 - [git 命令](/git命令/git.md)
 - [gradle 命令](/gradle命令/gradle.md)
-- [Mac 电脑操作命令](/Mac电脑操作命令/mac.md)
+- [Mac 电脑操作命令](/mac电脑操作命令/mac.md)
 - [服务端相关命令](/服务相关命令/服务器命令.md)
 
 
