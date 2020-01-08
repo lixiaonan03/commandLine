@@ -36,8 +36,11 @@ brew uninstall 卸载软件名
 brew info 软件名
 ```
 
-
-
+### 环境变量相关的操作的
+* 打开配置环境变量文件
+``` Java
+open ~/.bash_profile
+```
 
 
 ### redis相关的
