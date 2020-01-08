@@ -41,7 +41,15 @@ brew info 软件名
 ``` Java
 open ~/.bash_profile
 ```
-
+### 查看进程和端口使用情况的
+* 查看端口使用情况,其中adb端口的5037
+```java
+ lsof -I : 端口
+```
+* 杀死某个进程的
+```java
+kill 进程号
+```
 
 ### redis相关的
 * 打开本地local bin目录
