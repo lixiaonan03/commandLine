@@ -34,7 +34,11 @@ su root
 ``` Java
  cat proc/进程号/oom_adj
 ```
-
+#### activity情况
+* 查看堆栈情况 (过滤  Running activities 就可以看信息)
+```java
+adb shell dumpsys activity
+```
 
 ### 通过adb命令查看文件或者安装应用
 * adb install , 安装apk到手机上
@@ -45,8 +49,6 @@ adb install 路劲
 ``` Java
 adb uninstall com.z87v7ake.i2bsu67k
 ```
-
-
 
 * adb pull , 将 Android 设备上的文件或者文件夹复制到本地
 eg: 查看anr日志
