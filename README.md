@@ -3,6 +3,7 @@
 
 - [adb 命令](/adb命令/adb.md)
 - [git 命令](/git命令/git.md)
+- [flutter 使用命令](/flutter相关的一些命令/flutter.md)
 - [gradle 命令](/gradle命令行/gradle.md)
 - [Mac 电脑操作命令](/mac电脑操作命令/mac.md)
 - [服务端相关命令](/服务相关命令/服务器命令.md)
