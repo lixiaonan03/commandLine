@@ -37,10 +37,15 @@ brew info 软件名
 ```
 
 ### 环境变量相关的操作的
-* 打开配置环境变量文件
+* 打开配置环境变量文件(使用  bash shell)
 ``` Java
-open ~/.bash_profile
+open ~/.bash_profiles
 ```
+* 打开配置环境变量文件(使用  zsh shell)
+``` Java
+open ~/.zshrc
+```
+
 ### 查看进程和端口使用情况的
 * 查看端口使用情况,其中adb端口的5037
 ```java
