@@ -69,3 +69,10 @@ cd /usr/local/bin
 ``` Java
 ./redis-cli shutdown
 ```
+
+### mongo相关的
+1、找到运行路径或者 配置环境变量
+* 启动mongo
+``` Java
+mongod --dbpath /Users/lixiaonan/Documents/monggo/db(数据库地址 默认 /usr/data/db)
+```
