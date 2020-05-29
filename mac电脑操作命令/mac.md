@@ -71,6 +71,7 @@ cd /usr/local/bin
 ```
 
 ### mongo相关的
+参考 https://www.jianshu.com/p/b15d293930bc
 1、找到运行路径或者 配置环境变量
 * 启动mongo
 ``` Java
