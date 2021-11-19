@@ -3,8 +3,8 @@
 
 ### 查询dns
 
-* 探测DNS解析过程的，包括分析CNAME记录(https://zh.wikipedia.org/wiki/CNAME%E8%AE%B0%E5%BD%95)和A记录 的
-2个命令都可以  dig 命令或 nslookup 命令 参考(https://www.cnblogs.com/liujiacai/p/8366236.html)
+* 探测DNS解析过程的，包括分析[CNAME记录和A记录](https://zh.wikipedia.org/wiki/CNAME%E8%AE%B0%E5%BD%95) 的
+2个命令都可以  dig 命令或 nslookup 命令 [具体参数参考](https://www.cnblogs.com/liujiacai/p/8366236.html)
 ``` java
 nslookup  pic.wanwustore.cn
 ```
