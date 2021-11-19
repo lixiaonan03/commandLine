@@ -2,7 +2,7 @@
 整理自己平常使用到的一些命令行命令，目前整理的有
 
 - [adb 命令](/adb命令/adb.md)
-- [网络相关的命令](/network/)
+- [网络相关的命令](/network/network.md)
 - [git 命令](/git命令/git.md)
 - [flutter 使用命令](/flutter相关的一些命令/flutter.md)
 - [gradle 命令](/gradle命令行/gradle.md)
